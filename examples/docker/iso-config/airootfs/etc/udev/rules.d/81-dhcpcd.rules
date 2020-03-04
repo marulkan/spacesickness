@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="net", ENV{INTERFACE}=="en*0|eth*0", ENV{SYSTEMD_WANTS}="dhcpcd@$name.service"
